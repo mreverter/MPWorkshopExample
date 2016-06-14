@@ -89,7 +89,7 @@ public class MercadoPago {
         mRetrofit = new Retrofit.Builder()
                 .baseUrl(MP_API_BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create(JsonUtil.getInstance().getGson()))
-                .client(HttpClientUtil.getClient(this.mContext, 10, 20, 20))
+                .client(HttpClientUtil.getClient(this.mContext, 1, 1, 1))
                 .addCallAdapterFactory(new ErrorHandlingCallAdapter.ErrorHandlingCallAdapterFactory())
                 .build();
     }

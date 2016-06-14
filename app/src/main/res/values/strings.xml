@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">WorkshopExample</string>
     <string name="title_activity_components">Componentes de UI</string>
-    <string name="payment_methods_component_button_text">Selección simple de medio de pago</string>
+    <string name="payment_methods_component_button_text">Selección de medio de pago</string>
     <string name="issuers_component_button_text">Selección de banco</string>
     <string name="installments_component_button_text">Selección de cuotas</string>
     <string name="card_without_installments_component_button_text">Pago con tarjeta sin cuotas</string>
-    <string name="card_with_installments_component_button_text">Pago con tarjeta con cuotas</string>
+    <string name="card_with_installments_component_button_text">Pago con tarjeta en cuotas</string>
+    <string name="complete_payment_methods_component_button_text">Selección de medio de pago completa</string>
 </resources>
